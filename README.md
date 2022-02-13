@@ -1,6 +1,10 @@
 # Style-Transfer-Bot
 This is my first project in programming. And now i will tell you about how it was ( in Russian ).<br>
-Check <i>requirements.txt</i> for needed packages to be installed.
+Check <i>requirements.txt</i> for needed packages to be installed. <br>
+nst.py - NST realization <br>
+async_bot.py - Bot realization
+config.py - API_TOKEN
+
 
 ## Этап первый 
 Всё началось с банального ознакомления с темой GAN-ов, Style Transfer и тем, как это вообще работает. Посмотрел лекции от DLS на эти темы.
