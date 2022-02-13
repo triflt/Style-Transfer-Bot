@@ -32,6 +32,4 @@ Check <i>requirements.txt</i> for needed packages to be installed.
 Наконец, вы получите результат.<br> Также, вы можете посмотреть на существующий пример данной магии, нажав кнопку "Показать пример".
 
 
-![d33c2d38-01f5-4a60-8286-1c914ba18d7d](https://user-images.githubusercontent.com/89809140/153770918-f41831af-acee-4e1f-9467-6ed47328cfbc.jpg)
-![caac78c2-6d22-4e0b-a9f7-10ed62dde063](https://user-images.githubusercontent.com/89809140/153770932-21b3777e-a041-4db8-820d-ffa6851c0bcf.jpg)
-![d33c2d38-01f5-4a60-8286-1c914ba18d7d](https://user-images.githubusercontent.com/89809140/153770935-712c3a17-2cc5-4697-86a3-ff0fa2bc76e5.jpg)
+
