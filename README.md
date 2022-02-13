@@ -31,5 +31,7 @@ Check <i>requirements.txt</i> for needed packages to be installed.
 Затем вам следует выбрать желаемый стиль, который будет перенесен на вашу фотографию. <br>
 Наконец, вы получите результат.<br> Также, вы можете посмотреть на существующий пример данной магии, нажав кнопку "Показать пример".
 
+<img src='https://github.com/triflt/Style-Transfer-Bot/blob/main/images/window.jpg' height='250' width='250'/> <img src='https://github.com/triflt/Style-Transfer-Bot/blob/main/images/pic.jpg' height='250' width='250'/>
+<img src='https://github.com/triflt/Style-Transfer-Bot/blob/main/images/resulting.jpg' height='250' width='250'/>
 
 
