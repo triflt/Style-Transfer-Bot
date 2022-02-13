@@ -1,0 +1,10 @@
+# Check if your Python version is up-to-date.
+# Create config.py file which contains your bot token.
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cu101
+torchvision==0.8.2+cu101
+#torchaudio===0.7.2
+matplotlib~=3.3.2
+Pillow~=8.0.1
+aiogram~=2.11.2
