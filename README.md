@@ -1,2 +1,3 @@
-# Style-Transfer-Bot
-My first project in programming, I will add explanations soon
+## Style-Transfer-Bot
+This is my first project in programming. And now i will tell you about how it was ( in Russian ).
+# Этап первый
