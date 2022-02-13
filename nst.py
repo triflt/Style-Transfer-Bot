@@ -76,10 +76,6 @@ class ContentLoss(nn.Module):
 
     def __init__(self, target, ):
         super(ContentLoss, self).__init__()
-        # we 'detach' the target content from the tree used
-        # to dynamically compute the gradient: this is a stated value,
-        # not a variable. Otherwise the forward method of the criterion
-        # will throw an error.
         self.target = target.detach()
         self.loss = F.mse_loss(self.target, self.target)  # to initialize with something
 
@@ -89,13 +85,12 @@ class ContentLoss(nn.Module):
 
 
 def get_gram_matrix(input):
-    batch_size, f_map_num, h, w = input.size()  # batch size(=1)
-    # f_map_num=number of feature maps
-    # (h,w)=dimensions of a feature map (N=h*w)
+    batch_size, f_map_num, h, w = input.size()  
 
-    features = input.view(batch_size * f_map_num, h * w)  # resise F_XL into \hat F_XL
 
-    G = torch.mm(features, features.t())  # compute the gram product
+    features = input.view(batch_size * f_map_num, h * w)  
+
+    G = torch.mm(features, features.t())  
 
     # we 'normalize' the values of the gram matrix
     # by dividing by the number of element in each feature maps.
