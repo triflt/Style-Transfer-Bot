@@ -1,5 +1,5 @@
 # Style-Transfer-Bot
-This is my first project in programming. And now i will tell you about how it was ( in Russian ).<br>
+This is my first project in programming. And now i will tell you about how it was.<br>
 Check <i>requirements.txt</i> for needed packages to be installed. <br>
 nst.py - NST realization <br>
 async_bot.py - Bot realization
